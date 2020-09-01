@@ -1,0 +1,58 @@
+body {
+    background: lightskyblue;
+    font-family: Roboto;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    min-height: 100vh;
+}
+main {
+    width:375px;
+    text-align:center;
+    background-color:red;
+    border-radius: 10px;
+}
+.top {
+    height: 120px;
+    border-radius: 10px;
+    background-color:red;
+}
+.middle {
+    background-color: white;
+    height: 115px;
+    font-family:cursive;
+    font-size: 64px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.bottom {
+    height: 30px;
+    border-radius: 10px;
+}
+h1 {
+    font-size: 64px;
+    margin-bottom: 0px ;
+    margin-top: 5px;
+}
+h3 {
+    font-size: 30px;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
