@@ -1,7 +1,8 @@
 body {
-    background: lightskyblue;
+    background: darkgray;
     font-family: Roboto;
     display: flex;
+    flex-direction:column;
     justify-content:center;
     align-items:center;
     min-height: 100vh;
@@ -11,11 +12,12 @@ main {
     text-align:center;
     background-color:red;
     border-radius: 10px;
+    margin-bottom:20px;
 }
 .top {
     height: 120px;
     border-radius: 10px;
-    background-color:red;
+    /* background-color:red; */
 }
 .middle {
     background-color: white;
@@ -39,6 +41,12 @@ h3 {
     font-size: 30px;
     margin-top:5px;
     margin-bottom:5px;
+}
+.user-input {
+    margin-bottom:5px;
+}
+.button {
+    margin-bottom: 10px;
 }
 
 
